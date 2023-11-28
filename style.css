@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+:root {
+--colorPrimario: #8A2BE2;
+}
+
+header {
+background-color: var(--colorPrimario)
+}
