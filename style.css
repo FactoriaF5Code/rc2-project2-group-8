@@ -1,11 +1,47 @@
-body {
+* {
     margin: 0;
 }
 
 :root {
---colorPrimario: #8A2BE2;
+--morao: #8A2BE2;
+--amarillo: #F0CC00;
 }
 
 header {
-background-color: var(--colorPrimario)
+background-color: var(--morao);
+display: flex;
+justify-content: space-between;
+padding-right: 15px;
+align-items: center;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+.logoHeader {
+height: 66px ;
+}
+
+a {
+	text-decoration: none;
+	color: var(--amarillo);
+}
+
+footer {
+   display: flex;
+   justify-content: center;
+   background-color: var(--morao); 
+   align-items: center;
+   gap: 15px;
+
+}
+
+.logofooter {
+    height: 55px;
+}
+
+h6 {
+   
 }
