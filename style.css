@@ -1,47 +1,95 @@
 * {
-    margin: 0;
+  margin: 0;
 }
 
 :root {
---morao: #8A2BE2;
---amarillo: #F0CC00;
+  --morao: #8a2be2;
+  --amarillo: #f0cc00;
+  --negro: #000000;
+  --blanco:#fff;
+  --tipoh1:creep;
+  --tipop:'Open Sans', sans-serif;
+}
+
+@font-face {
+    font-family: creep;
+    src: url(fuentes/Malicious\ Moonlight\ Free.otf);
 }
 
 header {
-background-color: var(--morao);
-display: flex;
-justify-content: space-between;
-padding-right: 15px;
-align-items: center;
+  background-color: var(--morao);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  align-items: center;
 }
 
 nav {
-    display: flex;
-    gap: 15px;
+  display: flex;
+  gap: 35px;
+  font-family: var(--tipoh1);
+  font-size: 25px;
 }
 
 .logoHeader {
-height: 66px ;
+  height: 66px;
 }
 
 a {
-	text-decoration: none;
-	color: var(--amarillo);
+  text-decoration: none;
+  color: var(--amarillo);
+}
+
+main {
+  background-color: var(--negro);
+  height: 862px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+    width: 1000px;
+}
+
+.logomain {
+    width: 457px;
+    height: 418px;
+}
+
+h2 {
+  color: var(--amarillo);
+  font-family: var(--tipoh1);
+  font-size: 40px;
+}
+
+p {
+  color: var(--blanco);
+  font-family: var(--tipop);
+  font-size: 32px;
+  margin-top: 20px;
 }
 
 footer {
-   display: flex;
-   justify-content: center;
-   background-color: var(--morao); 
-   align-items: center;
-   gap: 15px;
-
+  display: flex;
+  justify-content: center;
+  background-color: var(--morao);
+  align-items: center;
+  gap: 15px;
 }
 
-.logofooter {
-    height: 55px;
+h5 {
+    font-family: var(--tipoh1);
+    color: var(--amarillo);
+    font-size: 25px;
 }
 
 h6 {
-   
+    font-family: var(--tipop);
+    color: var(--amarillo);
+    font-size: 15px;
+}
+
+.logofooter {
+  height: 55px;
 }
