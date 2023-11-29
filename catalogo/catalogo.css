@@ -1,0 +1,20 @@
+:root {
+    --morao: #8a2be2;
+    --amarillo: #f0cc00;
+    --negro: #000000;
+    --blanco:#fff;
+    --mainfont: creep;
+    --secondfont:'Open Sans', sans-serif;
+  }
+
+@font-face {
+  font-family: creep;
+  src: url(fuentes/Malicious\ Moonlight\ Free.otf);
+}
+
+
+h1 {
+  font-size: 30px;
+  color: var(--amarillo);
+  font-family: var(--mainfont);
+}
