@@ -1,0 +1,116 @@
+
+/*Removes default margin ----------*/
+* {
+  margin: 0;
+}
+
+/* Boxes padding mending --------------------*/
+* {
+	box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*Sets full height ----------*/
+html {
+  min-height: 100%;
+}
+
+
+:root {
+  --morao: #8a2be2;
+  --amarillo: #f0cc00;
+  --negro: #000000;
+  --blanco: #fff;
+  --mainfont: creep;
+  --secondfont: "Open Sans", sans-serif;
+}
+
+/*Font import ----------*/
+@font-face {
+  font-family: creep;
+  src: url(fuentes/Malicious\ Moonlight\ Free.otf);
+}
+
+/*Global ----------*/
+header {
+  background-color: var(--morao);
+  display: flex;
+  justify-content: space-between;
+  padding-right: 15px;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  gap: 35px;
+  font-family: var(--mainfont);
+  font-size: 25px;
+}
+
+.logoHeader {
+  height: 66px;
+}
+
+a {
+  text-decoration: none;
+  color: var(--amarillo);
+}
+
+main {
+  background-color: var(--negro);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10% 0;
+}
+
+span {
+  max-width: 45%;
+  margin-right: 10%;
+}
+
+h2 {
+  color: var(--amarillo);
+  font-family: var(--mainfont);
+  font-size: 40px;
+}
+
+p {
+  color: var(--blanco);
+  font-family: var(--secondfont);
+  font-size: 32px;
+  margin-top: 20px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: var(--morao);
+  align-items: center;
+  gap: 35px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+h5 {
+  font-family: var(--mainfont);
+  color: var(--amarillo);
+  font-size: 25px;
+}
+
+h6 {
+  font-family: var(--secondfont);
+  color: var(--amarillo);
+  font-size: 15px;
+}
+
+.logofooter {
+  height: 55px;
+}
