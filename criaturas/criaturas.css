@@ -1,3 +1,36 @@
+:root {
+  --morao: #8a2be2;
+  --amarillo: #f0cc00;
+  --negro: #000000;
+  --blanco: #fff;
+  --mainfont: creep;
+  --secondfont: "Open Sans", sans-serif;
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.btn-comprar {
+  color: #fff;
+  height: 50px;
+  width: 200px;
+  font-size: 35px;
+  background-color: var(--amarillo);
+  border: none;
+  border-radius: 73px;
+  font-family: var(--mainfont);
+  transition: 0.7ms 0.1ms box-shadow;
+}
+
+.btn-comprar:hover {
+  background-color: var(--amarillo);
+  box-shadow: 4px 4px 30px 3px var(--morao);
+}
+
 section {
   margin-right: 35px;
   width: 60%;
@@ -6,19 +39,25 @@ section {
 h1 {
   display: flex;
   justify-content: center;
+  margin-bottom: 60px;
 }
 
 .criaturita {
   width: 400px;
   border-radius: 73px;
   margin-left: 15px;
+  box-shadow: 4px 4px 30px 3px var(--morao);
+  transition: 0.7s 0.1s box-shadow;
 }
 
 .muchotexto {
   font-size: 20px;
-  margin-top: 15px;
+  margin-top: 0;
 }
 
-.negrita {
-  font-weight: bold;
+h4 {
+  color: var(--amarillo);
+  font-family: var(--secondfont);
+  font-size: 20px;
+  margin-top: 15px;
 }
