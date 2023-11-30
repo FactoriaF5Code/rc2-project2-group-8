@@ -62,6 +62,10 @@ a {
   color: var(--amarillo);
 }
 
+a:hover {
+  color: #fff
+}
+
 main {
   background-color: var(--negro);
   display: flex;
