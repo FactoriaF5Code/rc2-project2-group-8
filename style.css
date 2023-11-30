@@ -94,9 +94,6 @@ footer {
   background-color: var(--morao);
   align-items: center;
   gap: 35px;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 
 h5 {
