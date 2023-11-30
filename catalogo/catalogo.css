@@ -26,8 +26,8 @@ h1 {
   font-size: 35px;
   color: var(--amarillo);
   font-family: var(--mainfont);
-  
 }
+
 section {
     max-width: 830px;
 }

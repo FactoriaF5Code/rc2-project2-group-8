@@ -70,6 +70,12 @@ main {
   padding: 10% 0;
 }
 
+h1 {
+  font-size: 35px;
+  color: var(--amarillo);
+  font-family: var(--mainfont);
+}
+
 span {
   max-width: 45%;
   margin-right: 10%;
