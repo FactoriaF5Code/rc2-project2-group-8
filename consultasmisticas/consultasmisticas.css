@@ -10,15 +10,17 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-top: 0;
-    padding: 2% 3% 3% 3%;
+    padding: 2% 3% 3% 0%;
     
 }
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-right: 60px;
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 638px;
+    height: 521px;
 }
 article {
     display: flex;
@@ -26,9 +28,10 @@ article {
     height: 30px;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 p {
-margin-left: 70px;
+margin-left: 30px;
 display: flex;
 align-items: center;
 }
@@ -37,15 +40,15 @@ article p {
     color: var(--blanco);
     display: flex;
     flex-direction: row;
-    font-size: 15px;
+    font-size: 12px;
     margin-top: 30px;
-    margin-right: 30px;
-    margin-left: 50px;
+    margin-right: 10px;
+    margin-left: 30px;
+
 
 }
 .medicos {
-    width: 638px;
-    height: 399px;
+    width: 400px;
     border-radius: 79px;
     margin-top: 30px;
 }
@@ -53,4 +56,24 @@ article p {
 .email {
 color:var(--amarillo);
     text-decoration: underline ;
+}
+button{
+    background: var(--negro);
+    font-family: var(--mainfont);
+    width: auto;
+    height: 3rem;
+    margin-top: 80px;
+    color: var(--morao);
+    border-radius: 15px;
+    border-color: #f0cc00;
+}
+button {
+    transform: scale(1);
+    transition: transform 0.3s ease;
+    /* Transición suave en la escala durante 0.3 segundos con una función de temporización 'ease' */
+}
+
+button:hover {
+    transform: scale(1.5);
+    /* Al pasar el ratón, escala el elemento al 150% de su tamaño original */
 }
