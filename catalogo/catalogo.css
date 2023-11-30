@@ -24,12 +24,12 @@ span {
 section {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* Tres columnas con ancho flexible */
-  grid-template-rows: repeat(2, 100px); /* Dos filas con altura fija de 100px */
-  gap: 20px; /* Espacio entre las celdas */
+  grid-template-rows: repeat(2, 200px); /* Dos filas con altura fija de 100px */
+  gap: 30px; /* Espacio entre las celdas */
 }
 
 .img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 30px;
 }
