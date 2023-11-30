@@ -1,0 +1,53 @@
+:root {
+  --mainColor: #8a2be2;
+  --secondColor: #f0cc00;
+  --thirdColor: #000;
+  --fouthColor: #fff;
+  --mainTipo: creep;
+  --secondTipo: "Open Sans", sans-serif;
+}
+
+/*CONTENEDOR GENERAL ---------*/
+main {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+/*CONTENEDOR DEL ALIMENTO ----------*/
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.imagenAlimento {
+  max-width: 100%;
+  max-height: 25rem;
+  border-radius: 73px;
+  box-shadow: 4px 4px 30px 3px var(--mainColor);
+  transition: 0.7s 0.1s box-shadow;
+}
+
+button {
+  color: white;
+  background-color: var(--secondColor);
+  font-family: var(--mainTipo);
+  font-size: 2rem;
+  border-radius: 73px;
+  height: 3rem;
+  width: 20rem;
+  border: 0px dotted;
+  transition: 70ms 10ms background-color;
+  transition: 0.7ms 0.1ms box-shadow;
+}
+
+button:hover {
+  background-color: var(--mainColor);
+  box-shadow: 4px 4px 30px 3px var(--secondColor);
+}
+
+.botonVolver {
+  color: var(--thirdColor);
+}
