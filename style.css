@@ -1,21 +1,43 @@
+
+/*Removes default margin ----------*/
 * {
   margin: 0;
 }
+
+/* Boxes padding mending --------------------*/
+* {
+	box-sizing: border-box;
+}
+
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*Sets full height ----------*/
+html {
+  min-height: 100%;
+}
+
 
 :root {
   --morao: #8a2be2;
   --amarillo: #f0cc00;
   --negro: #000000;
-  --blanco:#fff;
+  --blanco: #fff;
   --mainfont: creep;
-  --secondfont:'Open Sans', sans-serif;
+  --secondfont: "Open Sans", sans-serif;
 }
 
+/*Font import ----------*/
 @font-face {
-    font-family: creep;
-    src: url(fuentes/Malicious\ Moonlight\ Free.otf);
+  font-family: creep;
+  src: url(fuentes/Malicious\ Moonlight\ Free.otf);
 }
 
+/*Global ----------*/
 header {
   background-color: var(--morao);
   display: flex;
@@ -42,19 +64,15 @@ a {
 
 main {
   background-color: var(--negro);
-  height: 862px;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding: 10% 0;
 }
 
 span {
-    width: 1000px;
-}
-
-.logomain {
-    width: 457px;
-    height: 418px;
+  max-width: 45%;
+  margin-right: 10%;
 }
 
 h2 {
@@ -75,19 +93,22 @@ footer {
   justify-content: center;
   background-color: var(--morao);
   align-items: center;
-  gap: 15px;
+  gap: 35px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 h5 {
-    font-family: var(--mainfont);
-    color: var(--amarillo);
-    font-size: 25px;
+  font-family: var(--mainfont);
+  color: var(--amarillo);
+  font-size: 25px;
 }
 
 h6 {
-    font-family: var(--secondfont);
-    color: var(--amarillo);
-    font-size: 15px;
+  font-family: var(--secondfont);
+  color: var(--amarillo);
+  font-size: 15px;
 }
 
 .logofooter {
