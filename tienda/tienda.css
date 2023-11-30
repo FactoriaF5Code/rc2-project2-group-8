@@ -1,9 +1,43 @@
 :root {
-    --mainColor: #8a2be2;
-    --secondColor: #f0cc00;
-    --thirdColor: #000;
-    --fouthColor: #fff;
-    --mainTipo: creep;
-    --secondTipo: 'Open Sans', sans-serif;
+  --mainColor: #8a2be2;
+  --secondColor: #f0cc00;
+  --thirdColor: #000;
+  --fouthColor: #fff;
+  --mainTipo: creep;
+  --secondTipo: "Open Sans", sans-serif;
 }
 
+main {
+  padding-top: 5rem; 
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/*CONTENEDOR ALIMENTOS -----------*/
+section {
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+/*FOTOS ALIMENTOS ----------*/
+.fotosAlimentos {
+    max-width: 100%;
+    max-height: 15rem;
+    border-radius: 73px;
+    box-shadow: 4px 4px 30px 3px var(--mainColor);
+    transition: 0.7s 0.1s box-shadow;
+}
+
+.fotosAlimentos:hover {
+    box-shadow: 4px 4px 30px 3px var(--secondColor);
+}
+
+/*TEXTO ALIMENTOS ---------*/
+h4 {
+    color: var(--secondColor);
+    font-family: Open Sans;
+    text-align: center;
+    padding-top: 0.5rem;
+}
