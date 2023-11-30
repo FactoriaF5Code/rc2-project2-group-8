@@ -13,57 +13,23 @@
 }
 
 main {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
 }
 
 span {
-    margin-left: 5%;
-    margin-right: 0;
-}
-
-h1 {
-  font-size: 35px;
-  color: var(--amarillo);
-  font-family: var(--mainfont);
+  margin-right: 0;
 }
 
 section {
-    max-width: 830px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Tres columnas con ancho flexible */
+  grid-template-rows: repeat(2, 100px); /* Dos filas con altura fija de 100px */
+  gap: 20px; /* Espacio entre las celdas */
 }
 
-.uno {
-  width: 234px;
-  height: 173px;
-  border-radius: 73px;
-}
-
-.dos {
-  width: 161px;
-  height: 215px;
-  border-radius: 73px;
-}
-
-.tres {
-  width: 184px;
-  height: 215px;
-  border-radius: 73px;
-}
-
-.cuatro {
-  width: 211px;
-  height: 210px;
-  border-radius: 73px;
-}
-
-.cinco {
-  width: 203px;
-  height: 209px;
-  border-radius: 73px;
-}
-
-.seis {
-  width: 188px;
-  height: 209px;
-  border-radius: 73px;
+.img {
+  width: 100px;
+  height: 100px;
+  border-radius: 30px;
 }
