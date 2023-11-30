@@ -6,6 +6,19 @@
     <title>Eventos</title>
       <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/eventos/eventos.css" />
+      <style>
+        .caja {
+            width: 100px;
+            height: 100px;
+            border: 5px solid #f0cc00;
+            transition: border-color 2s ease; /* Transición en el cambio de color del borde durante 0.5 segundos con una función de temporización 'ease' */
+            cursor: pointer;
+        }
+
+        .caja:hover {
+            border-color: #8a2be2;
+        }
+    </style>
   </head>
   <body>
     <header>
@@ -22,7 +35,7 @@
     <main>
       <h2>EVENTOS</h2>
       <section>
-      <article>
+      <article class="caja">
         <h2>FERIA DE LAS ESTRELLAS VALIENTES</h2>
         <p>
           Esta extravagante feria llevó a los visitantes a un mundo de
@@ -33,7 +46,7 @@
           luminosa. Una experiencia deslumbrante que dejó a todos maravillados.
         </p>
       </article>
-      <article>
+      <article class="caja">
         <h2>FERIA DE VUELO INSOLITO</h2>
         >
         <p>

@@ -6,10 +6,19 @@
     --mainfont: creep;
     --secondfont: 'Open Sans', sans-serif;
 }
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0;
+    padding: 2% 3% 3% 3%;
+    
+}
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right: 60px;
 }
 article {
     display: flex;
