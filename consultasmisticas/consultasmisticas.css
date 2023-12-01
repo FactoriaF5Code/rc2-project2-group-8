@@ -6,12 +6,13 @@
     --mainfont: creep;
     --secondfont: 'Open Sans', sans-serif;
 }
+
 main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding: 2% 3% 3% 0%;
-    
+    height: 77vh;
 }
 section {
     display: flex;
