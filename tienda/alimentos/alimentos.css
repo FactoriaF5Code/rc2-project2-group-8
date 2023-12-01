@@ -12,8 +12,8 @@ main {
   display: flex;
   align-items: flex-start;
   justify-content: space-around;
-  gap:3rem;
-  padding-left:5rem;
+  gap: 3rem;
+  padding-left: 5rem;
 }
 
 /*CONTENEDOR DEL ALIMENTO ----------*/
@@ -56,7 +56,8 @@ button:hover {
 
 /*GIF MARYLIN ---------*/
 .marylin {
- margin: 1.9rem;
- border-radius: 73px;
- box-shadow: 4px 4px 50px 1px var(--secondColor);;
+  margin: 1.9rem;
+  border-radius: 73px;
+  box-shadow: 4px 4px 50px 1px var(--secondColor);
+  ;
 }
