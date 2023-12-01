@@ -14,6 +14,17 @@ article {
   gap: 25px;
 }
 
+.gif {
+  width: 600px;
+  border-radius: 73px;
+  box-shadow: 4px 4px 30px 3px var(--morao);
+  transition: 0.7s 0.1s box-shadow;
+}
+
+.gif:hover {
+  box-shadow: 4px 4px 30px 3px var(--amarillo);
+}
+
 .btn-comprar {
   color: #fff;
   height: 50px;
