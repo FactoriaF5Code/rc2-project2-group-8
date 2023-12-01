@@ -21,7 +21,9 @@ html {
   min-height: 100%;
 }
 
-
+body {
+  background-color: #000000;
+}
 :root {
   --morao: #8a2be2;
   --amarillo: #f0cc00;
@@ -67,7 +69,6 @@ a:hover {
 }
 
 main {
-  background-color: var(--negro);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -121,4 +122,8 @@ h6 {
 .logofooter {
   height: 55px;
 }
-
+video{
+  position: absolute;
+    height: 135vh;
+    z-index: -1;
+}
